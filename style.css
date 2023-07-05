@@ -54,12 +54,13 @@ box-sizing: border-box;
   justify-content: center;
 }
 
-.attribution { font-size: 11px;
+.attribution {
    text-align: center;
    font-family:'Outfit', sans-serif;
    color: hsl(0, 0%, 100%);
-   font-size: 1.125em;
+   font-size: 0.7em;
   }
+
 
 body{
   background-color: hsl(217, 54%, 11%);
