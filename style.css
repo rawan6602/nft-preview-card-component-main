@@ -63,9 +63,7 @@ box-sizing: border-box;
 
 body{
   background-color: hsl(217, 54%, 11%);
- 
 }
-
 .card{
 background-color: hsl(216, 50%, 16%);
 min-height: 545px;
@@ -81,14 +79,13 @@ padding: 25px;
   position: relative;
 }
 .hover-effect:hover .hover-icon{
-  visibility:visible;
+  opacity: 1;
 }
 .image{
   border-radius: 10px;
   margin-bottom: 28px;
   object-fit: cover;
 }
-
 .hover-icon{
   background-color:hsl(178, 100%, 50%,0.4) ;
   width:278px;
@@ -97,7 +94,8 @@ padding: 25px;
   position:absolute;
   align-items: center;
   justify-content: center;
-  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
   border-radius: 10px;
   cursor:pointer;
 
@@ -119,7 +117,6 @@ p{
   color: hsl(215, 51%, 70%,0.7);
   font-size: 1em;
   line-height: 1.45em;
-  
 }
 
 hr{
@@ -149,7 +146,8 @@ opacity: 0.5;
 .middel-side{
   display: flex;
   align-items: center;
-  padding-bottom: 11px;
+  padding-bottom: 22px;
+
 }
 
 
@@ -164,18 +162,19 @@ opacity: 0.5;
   cursor:pointer;
 }
 
-.last-part{
+.footer{
   display: flex;
   align-items: center;
   padding-top: 5px;
+  border-top: 1px solid #2f4159;
+  padding-top: 15px;
 }
 
 .creator-image{
-  padding-right: 12px;
-  height:35px;
-  border-image:round;
-  border-color:hsl(0, 0%, 100%);
-  border-width: 3px;
+  margin-right: 12px;
+  background-color: aliceblue;
+  border-radius: 50%;
+  padding: 1px;
 }
 
 
