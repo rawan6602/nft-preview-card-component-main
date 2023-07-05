@@ -3,31 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Hanken+Grotesk:wght@500;600;700;800&family=Lexend+Deca&family=Outfit:wght@300&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | NFT preview card component</title>
+  <link rel="stylesheet" href="style.css">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+<main id="app">
 <body>
+  <div class="card">
+    <div class="card-content">
+      <div class="hover-effect">
+      <div class="hover-icon">
+        <img  height="46px" width="46px" alt="image" src="/nft-preview-card-component-main/nft-preview-card-component-main/images/icon-view.svg">
+      </div>
+        <img class="image" height="280px" width="278px" alt="image" src="/nft-preview-card-component-main/nft-preview-card-component-main/images/image-equilibrium.jpg">
+      </div>
+      <h1> Equilibrium #3429</h1> 
+      <p> Our Equilibrium collection promotes balance and calm.</p>
 
-  Equilibrium #3429
+      <div class=" information">
+          <div class="middel-side">
+            <img alt="icon" src="/nft-preview-card-component-main/nft-preview-card-component-main/images/icon-ethereum.svg">
+            <span class="blue-part">
+                0.041 ETH
+            </span>
+          </div>
+          <div class="middel-side">
+            <img src="/nft-preview-card-component-main/nft-preview-card-component-main/images/icon-clock.svg">
+            <span class="purple-part">
+                3 days left
+          </span>
+          </div>
+      </div>
 
-  Our Equilibrium collection promotes balance and calm.
+      <hr>
+         
+     <div class="last-part">
+    <img class="creator-image"  alt="image" src="/nft-preview-card-component-main/nft-preview-card-component-main/images/image-avatar.png">  
+    <div class="creared-person"><span class="hedden">Creation of </span><span class="name">Jules Wyvern</span></div> 
+    </div>
+    </div>
+  </div>
+</body>
+</main>
 
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
 
+<footer>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/rawan6602">Rawan Essam</a>.
   </div>
+</footer>
 </body>
 </html>
