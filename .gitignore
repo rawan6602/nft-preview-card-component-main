@@ -13,6 +13,7 @@ dist-ssr
 *.local
 nft-preview-card-component-main
 
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
